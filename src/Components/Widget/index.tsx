@@ -9,6 +9,7 @@ import BottomSheet from '@gorhom/bottom-sheet';
 import { styles } from './styles';
 import { Options } from '../Options';
 import { Form } from '../Form';
+import { Success } from '../../Components/Success';
 
 import { feedbackTypes } from '../../utils/feedbackTypes';
 
@@ -37,9 +38,7 @@ function Widget() {
             backgroundStyle={styles.modal}
             handleIndicatorStyle={styles.indicator}
         >
-            <Form
-                feedbackType='BUG'
-            />
+            <Success/>
         </BottomSheet>
         </>
     );
