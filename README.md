@@ -1,4 +1,4 @@
-# Appin progress
+# App in progress
 
 # React Native
 
